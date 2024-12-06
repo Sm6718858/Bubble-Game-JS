@@ -11,7 +11,7 @@ let timer = 60;
 function setTimer(){
     let timerint = setInterval(() => {
         if(timer>0){
-            timer;
+            timer--;
             document.querySelector("#Timer").textContent = timer;
         }
         else{
